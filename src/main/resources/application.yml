@@ -1,0 +1,12 @@
+Server:
+  port: 8005
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: adminadmin
+    url: jdbc:mysql://localhost:3306/blogProject
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
